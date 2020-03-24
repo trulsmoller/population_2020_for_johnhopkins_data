@@ -26,6 +26,7 @@ I used a dataset shared on kaggle by Tanu Prabhu and built on it a bit. See Cred
 My modifications included:
 - Adding the 'Continent' column manually.
 - Changed some of the Country names so that all match the spelling in the John Hopkins data.
+- Removed quite a few columns (only kept the ones listed above)
 
 ### Files
 population_2020_for_johnhopkins_data.csv
