@@ -15,7 +15,8 @@ https://github.com/CSSEGISandData/COVID-19
 Variables included in 'population_2020_for_johnhopkins_data.csv':
 
 - 'Country'
-- 'Continent'
+- 'Short' (three letter abbreviation of country)
+- 'Continent' (America, Europe, Africa, Asia, Oceania)
 - 'Population'
 - 'Density (P/Km²)'
 - 'Med. Age'
@@ -24,9 +25,9 @@ Variables included in 'population_2020_for_johnhopkins_data.csv':
 I used a dataset shared on kaggle by Tanu Prabhu and built on it a bit. See Credits.
 
 My modifications:
-- Added the 'Continent' column and filled in the name of the continents (manually)
+- Added columns 'Short' and 'Continent'.
 - Changed some of the Country names so that all match the spelling in the John Hopkins data.
-- Removed some of the columns (only kept the ones listed above)
+- Removed some of the columns (only kept the ones listed above).
 
 ### Files
 population_2020_for_johnhopkins_data.csv
